@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10AC815922018EE900D63B27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AC815822018EE900D63B27 /* AppDelegate.swift */; };
+		10AC815B22018EE900D63B27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AC815A22018EE900D63B27 /* ViewController.swift */; };
+		10AC815E22018EE900D63B27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10AC815C22018EE900D63B27 /* Main.storyboard */; };
+		10AC816022018EEA00D63B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10AC815F22018EEA00D63B27 /* Assets.xcassets */; };
+		10AC816322018EEA00D63B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10AC816122018EEA00D63B27 /* LaunchScreen.storyboard */; };
+		10AC816E22018EEA00D63B27 /* MobileRobotDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AC816D22018EEA00D63B27 /* MobileRobotDemoTests.swift */; };
+		10AC817922018EEA00D63B27 /* MobileRobotDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AC817822018EEA00D63B27 /* MobileRobotDemoUITests.swift */; };
+		10AC818722018F5800D63B27 /* MobileRobotBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AC818622018F5800D63B27 /* MobileRobotBtn.swift */; };
+		4881AC382208342FD09F0C21 /* Pods_MobileRobotDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24497F88270F232F6AF0628 /* Pods_MobileRobotDemoTests.framework */; };
+		4EFDC527703E20571F76B925 /* Pods_MobileRobotDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7424A78CFD7DBED0691118 /* Pods_MobileRobotDemoUITests.framework */; };
+		903196463B50EC2218AAA34E /* Pods_MobileRobotDemo_MobileRobotDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B4E5E62206393E03310131 /* Pods_MobileRobotDemo_MobileRobotDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10AC816A22018EEA00D63B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10AC814D22018EE900D63B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10AC815422018EE900D63B27;
+			remoteInfo = MobileRobotDemo;
+		};
+		10AC817522018EEA00D63B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10AC814D22018EE900D63B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10AC815422018EE900D63B27;
+			remoteInfo = MobileRobotDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10AC815522018EE900D63B27 /* MobileRobotDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileRobotDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AC815822018EE900D63B27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10AC815A22018EE900D63B27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10AC815D22018EE900D63B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10AC815F22018EEA00D63B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10AC816222018EEA00D63B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10AC816422018EEA00D63B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10AC816922018EEA00D63B27 /* MobileRobotDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileRobotDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AC816D22018EEA00D63B27 /* MobileRobotDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileRobotDemoTests.swift; sourceTree = "<group>"; };
+		10AC816F22018EEA00D63B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10AC817422018EEA00D63B27 /* MobileRobotDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileRobotDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AC817822018EEA00D63B27 /* MobileRobotDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileRobotDemoUITests.swift; sourceTree = "<group>"; };
+		10AC817A22018EEA00D63B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10AC818622018F5800D63B27 /* MobileRobotBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileRobotBtn.swift; sourceTree = "<group>"; };
+		147E1B5576C7419E7AF24D33 /* Pods-MobileRobotDemo-MobileRobotDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileRobotDemo-MobileRobotDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileRobotDemo-MobileRobotDemo/Pods-MobileRobotDemo-MobileRobotDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		36B4E5E62206393E03310131 /* Pods_MobileRobotDemo_MobileRobotDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileRobotDemo_MobileRobotDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5478DBAE2245E1E8FC189FAD /* Pods-MobileRobotDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileRobotDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileRobotDemoUITests/Pods-MobileRobotDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80D65AB87C5EAADD86B01C0D /* Pods-MobileRobotDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileRobotDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileRobotDemoUITests/Pods-MobileRobotDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		92361B5ED16C9865897BDB1C /* Pods-MobileRobotDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileRobotDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileRobotDemoTests/Pods-MobileRobotDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A24497F88270F232F6AF0628 /* Pods_MobileRobotDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileRobotDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A441C726E78E4A03FE562FCA /* Pods-MobileRobotDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileRobotDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileRobotDemoTests/Pods-MobileRobotDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A71F5A3B3E1B68F8850CA621 /* Pods-MobileRobotDemo-MobileRobotDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileRobotDemo-MobileRobotDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileRobotDemo-MobileRobotDemo/Pods-MobileRobotDemo-MobileRobotDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BC7424A78CFD7DBED0691118 /* Pods_MobileRobotDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileRobotDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10AC815222018EE900D63B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903196463B50EC2218AAA34E /* Pods_MobileRobotDemo_MobileRobotDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AC816622018EEA00D63B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4881AC382208342FD09F0C21 /* Pods_MobileRobotDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AC817122018EEA00D63B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFDC527703E20571F76B925 /* Pods_MobileRobotDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10AC814C22018EE900D63B27 = {
+			isa = PBXGroup;
+			children = (
+				10AC815722018EE900D63B27 /* MobileRobotDemo */,
+				10AC816C22018EEA00D63B27 /* MobileRobotDemoTests */,
+				10AC817722018EEA00D63B27 /* MobileRobotDemoUITests */,
+				10AC815622018EE900D63B27 /* Products */,
+				A375CAAF60E5A310C017E323 /* Pods */,
+				4B743DC7A42B3CEF1339CCC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10AC815622018EE900D63B27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10AC815522018EE900D63B27 /* MobileRobotDemo.app */,
+				10AC816922018EEA00D63B27 /* MobileRobotDemoTests.xctest */,
+				10AC817422018EEA00D63B27 /* MobileRobotDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10AC815722018EE900D63B27 /* MobileRobotDemo */ = {
+			isa = PBXGroup;
+			children = (
+				10AC818622018F5800D63B27 /* MobileRobotBtn.swift */,
+				10AC815822018EE900D63B27 /* AppDelegate.swift */,
+				10AC815A22018EE900D63B27 /* ViewController.swift */,
+				10AC815C22018EE900D63B27 /* Main.storyboard */,
+				10AC815F22018EEA00D63B27 /* Assets.xcassets */,
+				10AC816122018EEA00D63B27 /* LaunchScreen.storyboard */,
+				10AC816422018EEA00D63B27 /* Info.plist */,
+			);
+			path = MobileRobotDemo;
+			sourceTree = "<group>";
+		};
+		10AC816C22018EEA00D63B27 /* MobileRobotDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				10AC816D22018EEA00D63B27 /* MobileRobotDemoTests.swift */,
+				10AC816F22018EEA00D63B27 /* Info.plist */,
+			);
+			path = MobileRobotDemoTests;
+			sourceTree = "<group>";
+		};
+		10AC817722018EEA00D63B27 /* MobileRobotDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10AC817822018EEA00D63B27 /* MobileRobotDemoUITests.swift */,
+				10AC817A22018EEA00D63B27 /* Info.plist */,
+			);
+			path = MobileRobotDemoUITests;
+			sourceTree = "<group>";
+		};
+		4B743DC7A42B3CEF1339CCC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36B4E5E62206393E03310131 /* Pods_MobileRobotDemo_MobileRobotDemo.framework */,
+				A24497F88270F232F6AF0628 /* Pods_MobileRobotDemoTests.framework */,
+				BC7424A78CFD7DBED0691118 /* Pods_MobileRobotDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A375CAAF60E5A310C017E323 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				147E1B5576C7419E7AF24D33 /* Pods-MobileRobotDemo-MobileRobotDemo.debug.xcconfig */,
+				A71F5A3B3E1B68F8850CA621 /* Pods-MobileRobotDemo-MobileRobotDemo.release.xcconfig */,
+				A441C726E78E4A03FE562FCA /* Pods-MobileRobotDemoTests.debug.xcconfig */,
+				92361B5ED16C9865897BDB1C /* Pods-MobileRobotDemoTests.release.xcconfig */,
+				80D65AB87C5EAADD86B01C0D /* Pods-MobileRobotDemoUITests.debug.xcconfig */,
+				5478DBAE2245E1E8FC189FAD /* Pods-MobileRobotDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10AC815422018EE900D63B27 /* MobileRobotDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AC817D22018EEA00D63B27 /* Build configuration list for PBXNativeTarget "MobileRobotDemo" */;
+			buildPhases = (
+				B499429544B1B6D5C9648005 /* [CP] Check Pods Manifest.lock */,
+				10AC815122018EE900D63B27 /* Sources */,
+				10AC815222018EE900D63B27 /* Frameworks */,
+				10AC815322018EE900D63B27 /* Resources */,
+				74A1DE76310A71996080F59D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileRobotDemo;
+			productName = MobileRobotDemo;
+			productReference = 10AC815522018EE900D63B27 /* MobileRobotDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10AC816822018EEA00D63B27 /* MobileRobotDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AC818022018EEA00D63B27 /* Build configuration list for PBXNativeTarget "MobileRobotDemoTests" */;
+			buildPhases = (
+				F70435B43CBFFA5D71DD9FD0 /* [CP] Check Pods Manifest.lock */,
+				10AC816522018EEA00D63B27 /* Sources */,
+				10AC816622018EEA00D63B27 /* Frameworks */,
+				10AC816722018EEA00D63B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10AC816B22018EEA00D63B27 /* PBXTargetDependency */,
+			);
+			name = MobileRobotDemoTests;
+			productName = MobileRobotDemoTests;
+			productReference = 10AC816922018EEA00D63B27 /* MobileRobotDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10AC817322018EEA00D63B27 /* MobileRobotDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AC818322018EEA00D63B27 /* Build configuration list for PBXNativeTarget "MobileRobotDemoUITests" */;
+			buildPhases = (
+				B2EA75A7481460E6B22E5756 /* [CP] Check Pods Manifest.lock */,
+				10AC817022018EEA00D63B27 /* Sources */,
+				10AC817122018EEA00D63B27 /* Frameworks */,
+				10AC817222018EEA00D63B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10AC817622018EEA00D63B27 /* PBXTargetDependency */,
+			);
+			name = MobileRobotDemoUITests;
+			productName = MobileRobotDemoUITests;
+			productReference = 10AC817422018EEA00D63B27 /* MobileRobotDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10AC814D22018EE900D63B27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Janise;
+				TargetAttributes = {
+					10AC815422018EE900D63B27 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					10AC816822018EEA00D63B27 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 10AC815422018EE900D63B27;
+					};
+					10AC817322018EEA00D63B27 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 10AC815422018EE900D63B27;
+					};
+				};
+			};
+			buildConfigurationList = 10AC815022018EE900D63B27 /* Build configuration list for PBXProject "MobileRobotDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10AC814C22018EE900D63B27;
+			productRefGroup = 10AC815622018EE900D63B27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10AC815422018EE900D63B27 /* MobileRobotDemo */,
+				10AC816822018EEA00D63B27 /* MobileRobotDemoTests */,
+				10AC817322018EEA00D63B27 /* MobileRobotDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10AC815322018EE900D63B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AC816322018EEA00D63B27 /* LaunchScreen.storyboard in Resources */,
+				10AC816022018EEA00D63B27 /* Assets.xcassets in Resources */,
+				10AC815E22018EE900D63B27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AC816722018EEA00D63B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AC817222018EEA00D63B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74A1DE76310A71996080F59D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MobileRobotDemo-MobileRobotDemo/Pods-MobileRobotDemo-MobileRobotDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileRobotDemo-MobileRobotDemo/Pods-MobileRobotDemo-MobileRobotDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2EA75A7481460E6B22E5756 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileRobotDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B499429544B1B6D5C9648005 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileRobotDemo-MobileRobotDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F70435B43CBFFA5D71DD9FD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileRobotDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10AC815122018EE900D63B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AC818722018F5800D63B27 /* MobileRobotBtn.swift in Sources */,
+				10AC815B22018EE900D63B27 /* ViewController.swift in Sources */,
+				10AC815922018EE900D63B27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AC816522018EEA00D63B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AC816E22018EEA00D63B27 /* MobileRobotDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AC817022018EEA00D63B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AC817922018EEA00D63B27 /* MobileRobotDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10AC816B22018EEA00D63B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10AC815422018EE900D63B27 /* MobileRobotDemo */;
+			targetProxy = 10AC816A22018EEA00D63B27 /* PBXContainerItemProxy */;
+		};
+		10AC817622018EEA00D63B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10AC815422018EE900D63B27 /* MobileRobotDemo */;
+			targetProxy = 10AC817522018EEA00D63B27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10AC815C22018EE900D63B27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10AC815D22018EE900D63B27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10AC816122018EEA00D63B27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10AC816222018EEA00D63B27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10AC817B22018EEA00D63B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10AC817C22018EEA00D63B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10AC817E22018EEA00D63B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147E1B5576C7419E7AF24D33 /* Pods-MobileRobotDemo-MobileRobotDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG2ZSL4NR6;
+				INFOPLIST_FILE = MobileRobotDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Janise.MobileRobotDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10AC817F22018EEA00D63B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A71F5A3B3E1B68F8850CA621 /* Pods-MobileRobotDemo-MobileRobotDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG2ZSL4NR6;
+				INFOPLIST_FILE = MobileRobotDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Janise.MobileRobotDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10AC818122018EEA00D63B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A441C726E78E4A03FE562FCA /* Pods-MobileRobotDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG2ZSL4NR6;
+				INFOPLIST_FILE = MobileRobotDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Janise.MobileRobotDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileRobotDemo.app/MobileRobotDemo";
+			};
+			name = Debug;
+		};
+		10AC818222018EEA00D63B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92361B5ED16C9865897BDB1C /* Pods-MobileRobotDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG2ZSL4NR6;
+				INFOPLIST_FILE = MobileRobotDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Janise.MobileRobotDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileRobotDemo.app/MobileRobotDemo";
+			};
+			name = Release;
+		};
+		10AC818422018EEA00D63B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D65AB87C5EAADD86B01C0D /* Pods-MobileRobotDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG2ZSL4NR6;
+				INFOPLIST_FILE = MobileRobotDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Janise.MobileRobotDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobileRobotDemo;
+			};
+			name = Debug;
+		};
+		10AC818522018EEA00D63B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5478DBAE2245E1E8FC189FAD /* Pods-MobileRobotDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG2ZSL4NR6;
+				INFOPLIST_FILE = MobileRobotDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Janise.MobileRobotDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobileRobotDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10AC815022018EE900D63B27 /* Build configuration list for PBXProject "MobileRobotDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AC817B22018EEA00D63B27 /* Debug */,
+				10AC817C22018EEA00D63B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10AC817D22018EEA00D63B27 /* Build configuration list for PBXNativeTarget "MobileRobotDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AC817E22018EEA00D63B27 /* Debug */,
+				10AC817F22018EEA00D63B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10AC818022018EEA00D63B27 /* Build configuration list for PBXNativeTarget "MobileRobotDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AC818122018EEA00D63B27 /* Debug */,
+				10AC818222018EEA00D63B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10AC818322018EEA00D63B27 /* Build configuration list for PBXNativeTarget "MobileRobotDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AC818422018EEA00D63B27 /* Debug */,
+				10AC818522018EEA00D63B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10AC814D22018EE900D63B27 /* Project object */;
+}

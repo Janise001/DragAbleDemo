@@ -1,0 +1,6 @@
+framework module Pods_MobileRobotDemo_MobileRobotDemo {
+  umbrella header "Pods-MobileRobotDemo-MobileRobotDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
